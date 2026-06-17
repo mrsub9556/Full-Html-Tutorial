@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html-tutorial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Bookmarks-codewithshubham</h1>
+    </header>
+    <main>
+        <h2>Primary Bookmarks</h2>
+        <section>
+            <a target="_blank" href="https://www.google.com">Open Google</a>
+            <br>
+            <a target="_blank" href="https://www.facebook.com">Open Facebook</a>
+            <br>
+            <a target="_blank" href="https://www.instagram.com">Open Instagram</a>
+            <br>
+            <a target="_blank" href="https://www.youtube.com">Open Youtube</a>
+            <br>
+            <a target="_blank" href="https://www.spotify.com">Open Spotify</a>
+            <br>
+            <a target="_blank" href="https://www.google.com">Open Google</a>
+        </section>
+        <section>
+            <h2>Secondry Bookmarks</h2>
+            <a target="_blank" href="https://www.republicbharat.com">News</a>
+            <br>
+            <a target="_blank" href="https://www.chatgpt.com">Ai</a>
+            <br>
+            <a target="_blank" href="https://www.whatsapp.com">Open Whatsapp</a>
+            <br>
+            <a target="_blank" href="https://www.accuweather.com/">Weather</a>
+        </section>
+        <section>
+            <h1>Image,List,Table - html</h1>
+            <img src="https://media.licdn.com/dms/image/v2/D4D12AQGRv_9ZcSqRbQ/article-cover_image-shrink_720_1280/B4DZvGrazcKAAI-/0/1768564836642?e=2147483647&v=beta&t=tLlvV0ZXT2jmY3zEXsP-AKpvjdKYMOh7fmsKA3kWnKY"
+                width="350" alt="image">
+            <br>
+            <table>
+                <caption>Employee Details</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Designation</th>
+                        <th>Fev Language</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shubham</td>
+                        <td>Programmer</td>
+                        <td>Java Script</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Abhinav</td>
+                        <td rowspan="2">Java Script</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Abhinav</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Abhinav</td>
+                        <td>Java Script</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2>List -html</h2>
+            List : IT JOBS!
+            <ul>
+                <li>Frontend Developer</li>
+                <li>Backend Developer</li>
+                <li>Full Stack Developer</li>
+            </ul>
+            Ordered list
+            <ol>
+                <li>Senior Developer</li>
+                <li>Junior developer</li>
+                <li>Fresher</li>
+                <li>Exp</li>
+            </ol>
+            <h4>Defination List</h4>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HTML-(HyperText Markup Language) is the standard markup language used to create and structure web
+                    pages,HTML consists of a series of elements (tags) that tell a web browser how to display content
+                    such as text, images, links, tables, and forms.</dd>
+                <dt>CSS</dt>
+                <dd>(Cascading Style Sheets) is a style sheet language used to control the presentation and appearance
+                    of HTML documents.CSS is used to define the colors, fonts, layouts, spacing, and overall visual
+                    design of web pages, making them attractive and user-friendly.</dd>
+                <dt>JAVA SCRIPT</dt>
+                <dd>
+                    (JS)JavaScript is a scripting and programming language used to create dynamic and interactive web
+                    pages.
+                    It enables websites to respond to user actions and update content without reloading the page.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>form in -Html</h2>
+            <form action="/action.php" mathod="post">
+                <label for="username">Enter Your Username</label>
+                <input type="text" name="username" id="username" placeholder="">
+                <br><br>
+                <label for="password">Enter Your password</label>
+                <input type="password" name="password" id="password" placeholder="">
+                <br><br>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br><br>
+                <h3>select Your Class</h3>
+                <label for="101">
+                    <input type="radio" id="101" value="Class XI" name="Class XI" placeholder="">
+                </label>
+                <br><br>
+                 <label for="102">
+                    <input type="radio" id="102" value="Class XII" name="Class XII" placeholder="">
+                </label>
+                
+                <h3>Select Your City!</h3>
+                <select name="city">
+                    <option value="Delhi">Delhi</option>
+                    <option value="Noida">Noida</option>
+                    <option value="Roorkee">Roorkee</option>
+                    <option value="Saharanpur">Saharanpur</option>
+                    <option value="Panjab">Panjab</option>
+                </select>
+                <br>
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+    <br><br>
+    <footer>
+       <div id="firstdiv" class="red bg-yellow">first</div>
+       <div id="Seconddiv">Second</div>
+       <span class="red"></span>
+       <section>
+        <h1>Video tag ,Audio Tag,Frame tag </h1>
+        <br>
+        <video src="motivetional.mp4" width="180" controls></video>
+        <video src="speech.mp4" width="180" controls></video>
+        <br><br>
+        <audio src="JBMR.mp3" controls></audio>
+        <audio src="JBMR2.mp3" controls></audio>
+        <br>
+        <iframe src="https://picsart.com/"  height="400" width="350" frameborder="0"></iframe>
+        <br>
+        <section>
+            <h1>What is Semantics Tags ?</h1>
+            <img src="semantics tgs.png" width="300" alt="image">
+            <header>
+                <nav>
+                    <ul>
+                        <li>HOME</li>
+                        <li>ABOUT</li>
+                        <li>SERVICE</li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                About this Semantic Tags 
+            </main>
+            <footer>
+                Coppyright | All Rights Reserved 
+            </footer>
+        </section>   
+    </section>
+    </footer>
+    <h1>This is html code</h1>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+td{
+    border: 2px solid black;
+}
+.red{
+    color: red;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+#firstdiv{
+    /* background-color: red; */
+}
+
+ul{
+    display: flex;
+}
